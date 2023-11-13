@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "module": "ES6",
+    "rootDir": ".",
+//    "outFile": "cheat.js",
+    "incremental": true
+  },
+  "exclude": ["types.d.ts", "types.js"],
+}

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "moduleResolution": "bundler",
+    "composite": true,
+    "esModuleInterop": false,
+    "sourceMap": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "lib": ["DOM", "ES2016"],
+    "typeRoots": ["types"],
+    "rootDirs": [".", "src"],
+    "outDir": "lib"
+  },
+  "include": [
+    "src",
+    "js/candybox2_uncompressed.js"
+  ],
+  "exclude": ["types"]
+}

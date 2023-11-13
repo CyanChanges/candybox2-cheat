@@ -1,0 +1,13 @@
+{
+  "name": "candybox2-cheat",
+  "private": true,
+  "license": "GPL-3.0",
+  "scripts": {
+    "build": "esbuild src/index.ts --sourcemap --outfile=cheat_uncompressed.js",
+    "build:bookmark": "esbuild src/index.ts --bundle --minify --outfile=cheat.bookmark.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "esbuild": "^0.19.5"
+  }
+}
